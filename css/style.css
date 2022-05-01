@@ -2,3 +2,13 @@ body{
   text-align: center;
   border: 3px solid green;
 }
+#navbar {
+  position: fixed;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+@media screen and (max-height: 450px) {
+  #navbar  {padding-top: 15px;}
+  #navbar  a {font-size: 18px;}
+}
